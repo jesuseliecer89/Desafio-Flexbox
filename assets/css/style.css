@@ -1,0 +1,127 @@
+body{
+  background-color: #E8EBE4;
+}
+
+.seccion-principal{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* SECCION CONTACTOS COLUMNA IZQUIERDA */
+
+.contactos{
+  width: 20%;
+  background-color: white;
+  margin: auto;
+}
+
+/* SECION DATOS DE MARIA */
+
+.chat{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 3px solid #e0e0e0;
+  height: 5%;
+}
+
+.datos-usuario{
+  display: flex;
+  align-items: center;
+}
+
+.texto-chat{
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0px;
+}
+
+.chat img{
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-icon{
+  display: flex;
+}
+
+.chat-icon i{
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+
+.chat-boton{
+  display: flex;
+  justify-content: center;
+  padding: 35px 0;
+  border-bottom: 3px solid #e0e0e0
+}
+.chat-boton button{
+  background-color: #A491D2;
+  width: 70%;
+  padding: 8px;
+  color: white;
+}
+
+/* SECCION CHAT CONTACTOS */
+
+.chat-contactos{
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto{
+  display: flex;  
+  justify-content: flex-start;
+  border-bottom: 3px solid #e0e0e0;
+  padding: 8px;
+}
+
+.texto-contactos{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.contacto img{
+  height: 20%;
+  width: 20%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* SECCION PRINCIPAL LOGO COLUMNA IZQUIERDA */
+.principal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  border-left: 2px solid black;
+}
+
+.titulo-principal{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.titulo-principal img{
+  height: 20%;
+  width: 20%;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+.texto-principal{
+  display: flex;
+  text-align: center;
+  margin:0px;
+}
+
+.titulo-principal h1{
+  margin: 0%;
+}
